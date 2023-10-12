@@ -19,7 +19,7 @@ class Restaurant(Base):
         """Return object data in easily serializeable format"""
         return {
             'name': self.name,
-            'id': self.id,
+            'id': self.id
         }
 
 
@@ -44,7 +44,7 @@ class MenuItem(Base):
             'description': self.description,
             'id': self.id,
             'price': self.price,
-            'course': self.course,
+            'course': self.course, 
         }
 
 #Add a serializable property to
